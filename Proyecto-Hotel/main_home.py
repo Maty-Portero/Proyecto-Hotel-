@@ -7,7 +7,7 @@ class MyWidget(QMainWindow):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        
+
         # Conectar todos los botones del 1 al 30 a la misma función
         for i in range(1, 31):
             button = getattr(self.ui, f'pushButton_{i}', None)

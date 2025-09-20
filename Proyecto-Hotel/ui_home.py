@@ -125,311 +125,157 @@ class Ui_MainWindow(object):
         font2.setFamilies([u"Javanese Text"])
         font2.setPointSize(19)
         self.pushButton_1.setFont(font2)
-        self.pushButton_1.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_1.setStyleSheet(u"QPushButton#pushButton_1 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_2 = QPushButton(self.centralwidget)
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setGeometry(QRect(503, 471, 166, 88))
         self.pushButton_2.setFont(font2)
-        self.pushButton_2.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_2.setStyleSheet(u"QPushButton#pushButton_2 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setGeometry(QRect(877, 471, 166, 88))
         self.pushButton_3.setFont(font2)
-        self.pushButton_3.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_3.setStyleSheet(u"QPushButton#pushButton_3 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_4 = QPushButton(self.centralwidget)
         self.pushButton_4.setObjectName(u"pushButton_4")
         self.pushButton_4.setGeometry(QRect(1064, 471, 166, 88))
         self.pushButton_4.setFont(font2)
-        self.pushButton_4.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_4.setStyleSheet(u"QPushButton#pushButton_4 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_5 = QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setGeometry(QRect(1251, 471, 166, 88))
         self.pushButton_5.setFont(font2)
-        self.pushButton_5.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_5.setStyleSheet(u"QPushButton#pushButton_5 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_6 = QPushButton(self.centralwidget)
         self.pushButton_6.setObjectName(u"pushButton_6")
         self.pushButton_6.setGeometry(QRect(1438, 471, 166, 88))
         self.pushButton_6.setFont(font2)
-        self.pushButton_6.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_6.setStyleSheet(u"QPushButton#pushButton_6 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_7 = QPushButton(self.centralwidget)
         self.pushButton_7.setObjectName(u"pushButton_7")
         self.pushButton_7.setGeometry(QRect(690, 471, 166, 88))
         self.pushButton_7.setFont(font2)
-        self.pushButton_7.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_7.setStyleSheet(u"QPushButton#pushButton_7 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_8 = QPushButton(self.centralwidget)
         self.pushButton_8.setObjectName(u"pushButton_8")
         self.pushButton_8.setGeometry(QRect(1251, 570, 166, 88))
         self.pushButton_8.setFont(font2)
-        self.pushButton_8.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_8.setStyleSheet(u"QPushButton#pushButton_8 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_9 = QPushButton(self.centralwidget)
         self.pushButton_9.setObjectName(u"pushButton_9")
         self.pushButton_9.setGeometry(QRect(315, 570, 166, 88))
         self.pushButton_9.setFont(font2)
-        self.pushButton_9.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_9.setStyleSheet(u"QPushButton#pushButton_9 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_10 = QPushButton(self.centralwidget)
         self.pushButton_10.setObjectName(u"pushButton_10")
         self.pushButton_10.setGeometry(QRect(877, 570, 166, 88))
         self.pushButton_10.setFont(font2)
-        self.pushButton_10.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_10.setStyleSheet(u"QPushButton#pushButton_10 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_11 = QPushButton(self.centralwidget)
         self.pushButton_11.setObjectName(u"pushButton_11")
         self.pushButton_11.setGeometry(QRect(690, 570, 166, 88))
         self.pushButton_11.setFont(font2)
-        self.pushButton_11.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_11.setStyleSheet(u"QPushButton#pushButton_11 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_12 = QPushButton(self.centralwidget)
         self.pushButton_12.setObjectName(u"pushButton_12")
         self.pushButton_12.setGeometry(QRect(1438, 563, 166, 88))
         self.pushButton_12.setFont(font2)
-        self.pushButton_12.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_12.setStyleSheet(u"QPushButton#pushButton_12 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_13 = QPushButton(self.centralwidget)
         self.pushButton_13.setObjectName(u"pushButton_13")
         self.pushButton_13.setGeometry(QRect(503, 570, 166, 88))
         self.pushButton_13.setFont(font2)
-        self.pushButton_13.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_13.setStyleSheet(u"QPushButton#pushButton_13 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_14 = QPushButton(self.centralwidget)
         self.pushButton_14.setObjectName(u"pushButton_14")
         self.pushButton_14.setGeometry(QRect(1063, 570, 166, 88))
         self.pushButton_14.setFont(font2)
-        self.pushButton_14.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_14.setStyleSheet(u"QPushButton#pushButton_14 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_15 = QPushButton(self.centralwidget)
         self.pushButton_15.setObjectName(u"pushButton_15")
         self.pushButton_15.setGeometry(QRect(1251, 668, 166, 88))
         self.pushButton_15.setFont(font2)
-        self.pushButton_15.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_15.setStyleSheet(u"QPushButton#pushButton_15 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_16 = QPushButton(self.centralwidget)
         self.pushButton_16.setObjectName(u"pushButton_16")
         self.pushButton_16.setGeometry(QRect(315, 770, 166, 88))
         self.pushButton_16.setFont(font2)
-        self.pushButton_16.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_16.setStyleSheet(u"QPushButton#pushButton_16 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_17 = QPushButton(self.centralwidget)
         self.pushButton_17.setObjectName(u"pushButton_17")
         self.pushButton_17.setGeometry(QRect(690, 770, 166, 88))
         self.pushButton_17.setFont(font2)
-        self.pushButton_17.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_17.setStyleSheet(u"QPushButton#pushButton_17 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_18 = QPushButton(self.centralwidget)
         self.pushButton_18.setObjectName(u"pushButton_18")
         self.pushButton_18.setGeometry(QRect(877, 770, 166, 88))
         self.pushButton_18.setFont(font2)
-        self.pushButton_18.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_18.setStyleSheet(u"QPushButton#pushButton_18 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_19 = QPushButton(self.centralwidget)
         self.pushButton_19.setObjectName(u"pushButton_19")
         self.pushButton_19.setGeometry(QRect(315, 668, 166, 88))
         self.pushButton_19.setFont(font2)
-        self.pushButton_19.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_19.setStyleSheet(u"QPushButton#pushButton_19 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_20 = QPushButton(self.centralwidget)
         self.pushButton_20.setObjectName(u"pushButton_20")
         self.pushButton_20.setGeometry(QRect(877, 668, 166, 88))
         self.pushButton_20.setFont(font2)
-        self.pushButton_20.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_20.setStyleSheet(u"QPushButton#pushButton_20 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_21 = QPushButton(self.centralwidget)
         self.pushButton_21.setObjectName(u"pushButton_21")
         self.pushButton_21.setGeometry(QRect(690, 668, 166, 88))
         self.pushButton_21.setFont(font2)
-        self.pushButton_21.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_21.setStyleSheet(u"QPushButton#pushButton_21 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_22 = QPushButton(self.centralwidget)
         self.pushButton_22.setObjectName(u"pushButton_22")
         self.pushButton_22.setGeometry(QRect(1438, 668, 166, 88))
         self.pushButton_22.setFont(font2)
-        self.pushButton_22.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_22.setStyleSheet(u"QPushButton#pushButton_22 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_23 = QPushButton(self.centralwidget)
         self.pushButton_23.setObjectName(u"pushButton_23")
         self.pushButton_23.setGeometry(QRect(1068, 770, 166, 88))
         self.pushButton_23.setFont(font2)
-        self.pushButton_23.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_23.setStyleSheet(u"QPushButton#pushButton_23 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_24 = QPushButton(self.centralwidget)
         self.pushButton_24.setObjectName(u"pushButton_24")
         self.pushButton_24.setGeometry(QRect(503, 770, 166, 88))
         self.pushButton_24.setFont(font2)
-        self.pushButton_24.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_24.setStyleSheet(u"QPushButton#pushButton_24 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_25 = QPushButton(self.centralwidget)
         self.pushButton_25.setObjectName(u"pushButton_25")
         self.pushButton_25.setGeometry(QRect(503, 668, 166, 88))
         self.pushButton_25.setFont(font2)
-        self.pushButton_25.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_25.setStyleSheet(u"QPushButton#pushButton_25 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_26 = QPushButton(self.centralwidget)
         self.pushButton_26.setObjectName(u"pushButton_26")
         self.pushButton_26.setGeometry(QRect(1438, 770, 166, 88))
         self.pushButton_26.setFont(font2)
-        self.pushButton_26.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_26.setStyleSheet(u"QPushButton#pushButton_26 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_27 = QPushButton(self.centralwidget)
         self.pushButton_27.setObjectName(u"pushButton_27")
         self.pushButton_27.setGeometry(QRect(1251, 770, 166, 88))
         self.pushButton_27.setFont(font2)
-        self.pushButton_27.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_27.setStyleSheet(u"QPushButton#pushButton_27 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_28 = QPushButton(self.centralwidget)
         self.pushButton_28.setObjectName(u"pushButton_28")
         self.pushButton_28.setGeometry(QRect(1069, 668, 166, 88))
         self.pushButton_28.setFont(font2)
-        self.pushButton_28.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_28.setStyleSheet(u"QPushButton#pushButton_28 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_29 = QPushButton(self.centralwidget)
         self.pushButton_29.setObjectName(u"pushButton_29")
         self.pushButton_29.setGeometry(QRect(315, 872, 166, 88))
         self.pushButton_29.setFont(font2)
-        self.pushButton_29.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_29.setStyleSheet(u"QPushButton#pushButton_29 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_30 = QPushButton(self.centralwidget)
         self.pushButton_30.setObjectName(u"pushButton_30")
         self.pushButton_30.setGeometry(QRect(503, 872, 166, 88))
         self.pushButton_30.setFont(font2)
-        self.pushButton_30.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f; color: white;}")
+        self.pushButton_30.setStyleSheet(u"QPushButton#pushButton_30 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         self.pushButton_31 = QPushButton(self.centralwidget)
         self.pushButton_31.setObjectName(u"pushButton_31")
         self.pushButton_31.setGeometry(QRect(315, 266, 26, 56))
         self.pushButton_31.setFont(font2)
-        self.pushButton_31.setStyleSheet(u"background-color: #F2E8DB;\n"
-"border: 2px solid #F2E8DB; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f;}")
+        self.pushButton_31.setStyleSheet(u"QPushButton#pushButton_31 {border: 2px solid #F2E8DB; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #F2E8DB; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         icon = QIcon()
         icon.addFile(u"../arrow_back.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_31.setIcon(icon)
@@ -437,11 +283,7 @@ class Ui_MainWindow(object):
         self.pushButton_32.setObjectName(u"pushButton_32")
         self.pushButton_32.setGeometry(QRect(1594, 266, 34, 56))
         self.pushButton_32.setFont(font2)
-        self.pushButton_32.setStyleSheet(u"background-color: #F2E8DB;\n"
-"border: 2px solid #F2E8DB; \n"
-"border-radius: 30px; \n"
-"padding: 5px;\n"
-"QPushButton:hover { background-color: #d0767f;}")
+        self.pushButton_32.setStyleSheet(u"QPushButton#pushButton_31 {border: 2px solid #F2E8DB; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #F2E8DB; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
         icon1 = QIcon()
         icon1.addFile(u"../arrow_forward.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_32.setIcon(icon1)
