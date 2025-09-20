@@ -32,13 +32,13 @@ class Ui_MainWindow(object):
         self.label.setStyleSheet(u"background-color: #F2E8DB;")
         self.label_5 = QLabel(self.centralwidget)
         self.label_5.setObjectName(u"label_5")
-        self.label_5.setGeometry(QRect(844, 87, 237, 158))
+        self.label_5.setGeometry(QRect(844, 55, 237, 158))
         self.label_5.setStyleSheet(u"background-color: rgb(242, 232, 219);")
         self.label_5.setPixmap(QPixmap(u"../a.png"))
         self.label_5.setScaledContents(True)
         self.label_3 = QLabel(self.centralwidget)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(1250, 224, 355, 51))
+        self.label_3.setGeometry(QRect(1250, 192, 355, 51))
         font = QFont()
         font.setFamilies([u"Javanese Text"])
         font.setPointSize(30)
@@ -46,7 +46,7 @@ class Ui_MainWindow(object):
         self.label_3.setStyleSheet(u"color:black;")
         self.label_4 = QLabel(self.centralwidget)
         self.label_4.setObjectName(u"label_4")
-        self.label_4.setGeometry(QRect(850, 310, 211, 47))
+        self.label_4.setGeometry(QRect(850, 278, 211, 47))
         font1 = QFont()
         font1.setFamilies([u"Javanese Text"])
         font1.setPointSize(25)
@@ -56,71 +56,71 @@ class Ui_MainWindow(object):
         self.label_4.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.line = QFrame(self.centralwidget)
         self.line.setObjectName(u"line")
-        self.line.setGeometry(QRect(321, 287, 1300, 10))
+        self.line.setGeometry(QRect(321, 255, 1300, 10))
         self.line.setFrameShape(QFrame.Shape.HLine)
         self.line.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_2 = QFrame(self.centralwidget)
         self.line_2.setObjectName(u"line_2")
-        self.line_2.setGeometry(QRect(315, 363, 1299, 10))
+        self.line_2.setGeometry(QRect(315, 331, 1299, 10))
         self.line_2.setFrameShape(QFrame.Shape.HLine)
         self.line_2.setFrameShadow(QFrame.Shadow.Sunken)
         self.label_6 = QLabel(self.centralwidget)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(387, 390, 18, 39))
+        self.label_6.setGeometry(QRect(387, 358, 18, 39))
         self.label_6.setFont(font1)
         self.label_6.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_6.setStyleSheet(u"color:black;")
         self.label_6.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_7 = QLabel(self.centralwidget)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(570, 390, 28, 39))
+        self.label_7.setGeometry(QRect(570, 358, 28, 39))
         self.label_7.setFont(font1)
         self.label_7.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_7.setStyleSheet(u"color:black;")
         self.label_7.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_8 = QLabel(self.centralwidget)
         self.label_8.setObjectName(u"label_8")
-        self.label_8.setGeometry(QRect(763, 390, 19, 39))
+        self.label_8.setGeometry(QRect(763, 358, 19, 39))
         self.label_8.setFont(font1)
         self.label_8.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_8.setStyleSheet(u"color:black;")
         self.label_8.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_9 = QLabel(self.centralwidget)
         self.label_9.setObjectName(u"label_9")
-        self.label_9.setGeometry(QRect(956, 390, 9, 39))
+        self.label_9.setGeometry(QRect(956, 358, 9, 39))
         self.label_9.setFont(font1)
         self.label_9.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_9.setStyleSheet(u"color:black;")
         self.label_9.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_10 = QLabel(self.centralwidget)
         self.label_10.setObjectName(u"label_10")
-        self.label_10.setGeometry(QRect(1140, 390, 21, 39))
+        self.label_10.setGeometry(QRect(1140, 358, 21, 39))
         self.label_10.setFont(font1)
         self.label_10.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_10.setStyleSheet(u"color:black;")
         self.label_10.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_11 = QLabel(self.centralwidget)
         self.label_11.setObjectName(u"label_11")
-        self.label_11.setGeometry(QRect(1508, 390, 28, 39))
+        self.label_11.setGeometry(QRect(1508, 358, 28, 39))
         self.label_11.setFont(font1)
         self.label_11.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_11.setStyleSheet(u"color:black;")
         self.label_11.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_12 = QLabel(self.centralwidget)
         self.label_12.setObjectName(u"label_12")
-        self.label_12.setGeometry(QRect(1325, 390, 18, 39))
+        self.label_12.setGeometry(QRect(1325, 358, 18, 39))
         self.label_12.setFont(font1)
         self.label_12.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_12.setStyleSheet(u"color:black;")
         self.label_12.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.line_3 = QFrame(self.centralwidget)
         self.line_3.setObjectName(u"line_3")
-        self.line_3.setGeometry(QRect(315, 444, 1299, 10))
+        self.line_3.setGeometry(QRect(315, 412, 1299, 10))
         self.line_3.setFrameShape(QFrame.Shape.HLine)
         self.line_3.setFrameShadow(QFrame.Shadow.Sunken)
         self.pushButton = QPushButton(self.centralwidget)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(315, 503, 166, 88))
+        self.pushButton.setGeometry(QRect(315, 471, 166, 88))
         font2 = QFont()
         font2.setFamilies([u"Javanese Text"])
         font2.setPointSize(19)
@@ -133,7 +133,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_2 = QPushButton(self.centralwidget)
         self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(503, 503, 166, 88))
+        self.pushButton_2.setGeometry(QRect(503, 471, 166, 88))
         self.pushButton_2.setFont(font2)
         self.pushButton_2.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -143,7 +143,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setGeometry(QRect(877, 503, 166, 88))
+        self.pushButton_3.setGeometry(QRect(877, 471, 166, 88))
         self.pushButton_3.setFont(font2)
         self.pushButton_3.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -153,7 +153,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_4 = QPushButton(self.centralwidget)
         self.pushButton_4.setObjectName(u"pushButton_4")
-        self.pushButton_4.setGeometry(QRect(1064, 503, 166, 88))
+        self.pushButton_4.setGeometry(QRect(1064, 471, 166, 88))
         self.pushButton_4.setFont(font2)
         self.pushButton_4.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -163,7 +163,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_5 = QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName(u"pushButton_5")
-        self.pushButton_5.setGeometry(QRect(1251, 503, 166, 88))
+        self.pushButton_5.setGeometry(QRect(1251, 471, 166, 88))
         self.pushButton_5.setFont(font2)
         self.pushButton_5.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -173,7 +173,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_6 = QPushButton(self.centralwidget)
         self.pushButton_6.setObjectName(u"pushButton_6")
-        self.pushButton_6.setGeometry(QRect(1438, 503, 166, 88))
+        self.pushButton_6.setGeometry(QRect(1438, 471, 166, 88))
         self.pushButton_6.setFont(font2)
         self.pushButton_6.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -183,7 +183,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_7 = QPushButton(self.centralwidget)
         self.pushButton_7.setObjectName(u"pushButton_7")
-        self.pushButton_7.setGeometry(QRect(690, 503, 166, 88))
+        self.pushButton_7.setGeometry(QRect(690, 471, 166, 88))
         self.pushButton_7.setFont(font2)
         self.pushButton_7.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -193,7 +193,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_8 = QPushButton(self.centralwidget)
         self.pushButton_8.setObjectName(u"pushButton_8")
-        self.pushButton_8.setGeometry(QRect(1251, 602, 166, 88))
+        self.pushButton_8.setGeometry(QRect(1251, 570, 166, 88))
         self.pushButton_8.setFont(font2)
         self.pushButton_8.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -203,7 +203,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_9 = QPushButton(self.centralwidget)
         self.pushButton_9.setObjectName(u"pushButton_9")
-        self.pushButton_9.setGeometry(QRect(315, 602, 166, 88))
+        self.pushButton_9.setGeometry(QRect(315, 570, 166, 88))
         self.pushButton_9.setFont(font2)
         self.pushButton_9.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -213,7 +213,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_10 = QPushButton(self.centralwidget)
         self.pushButton_10.setObjectName(u"pushButton_10")
-        self.pushButton_10.setGeometry(QRect(877, 602, 166, 88))
+        self.pushButton_10.setGeometry(QRect(877, 570, 166, 88))
         self.pushButton_10.setFont(font2)
         self.pushButton_10.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -223,7 +223,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_11 = QPushButton(self.centralwidget)
         self.pushButton_11.setObjectName(u"pushButton_11")
-        self.pushButton_11.setGeometry(QRect(690, 602, 166, 88))
+        self.pushButton_11.setGeometry(QRect(690, 570, 166, 88))
         self.pushButton_11.setFont(font2)
         self.pushButton_11.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -233,7 +233,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_12 = QPushButton(self.centralwidget)
         self.pushButton_12.setObjectName(u"pushButton_12")
-        self.pushButton_12.setGeometry(QRect(1438, 595, 166, 88))
+        self.pushButton_12.setGeometry(QRect(1438, 563, 166, 88))
         self.pushButton_12.setFont(font2)
         self.pushButton_12.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -243,7 +243,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_13 = QPushButton(self.centralwidget)
         self.pushButton_13.setObjectName(u"pushButton_13")
-        self.pushButton_13.setGeometry(QRect(503, 602, 166, 88))
+        self.pushButton_13.setGeometry(QRect(503, 570, 166, 88))
         self.pushButton_13.setFont(font2)
         self.pushButton_13.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -253,7 +253,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_14 = QPushButton(self.centralwidget)
         self.pushButton_14.setObjectName(u"pushButton_14")
-        self.pushButton_14.setGeometry(QRect(1063, 602, 166, 88))
+        self.pushButton_14.setGeometry(QRect(1063, 570, 166, 88))
         self.pushButton_14.setFont(font2)
         self.pushButton_14.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -263,7 +263,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_15 = QPushButton(self.centralwidget)
         self.pushButton_15.setObjectName(u"pushButton_15")
-        self.pushButton_15.setGeometry(QRect(1251, 700, 166, 88))
+        self.pushButton_15.setGeometry(QRect(1251, 668, 166, 88))
         self.pushButton_15.setFont(font2)
         self.pushButton_15.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -273,7 +273,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_16 = QPushButton(self.centralwidget)
         self.pushButton_16.setObjectName(u"pushButton_16")
-        self.pushButton_16.setGeometry(QRect(315, 802, 166, 88))
+        self.pushButton_16.setGeometry(QRect(315, 770, 166, 88))
         self.pushButton_16.setFont(font2)
         self.pushButton_16.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -283,7 +283,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_17 = QPushButton(self.centralwidget)
         self.pushButton_17.setObjectName(u"pushButton_17")
-        self.pushButton_17.setGeometry(QRect(690, 802, 166, 88))
+        self.pushButton_17.setGeometry(QRect(690, 770, 166, 88))
         self.pushButton_17.setFont(font2)
         self.pushButton_17.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -293,7 +293,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_18 = QPushButton(self.centralwidget)
         self.pushButton_18.setObjectName(u"pushButton_18")
-        self.pushButton_18.setGeometry(QRect(877, 802, 166, 88))
+        self.pushButton_18.setGeometry(QRect(877, 770, 166, 88))
         self.pushButton_18.setFont(font2)
         self.pushButton_18.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -303,7 +303,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_19 = QPushButton(self.centralwidget)
         self.pushButton_19.setObjectName(u"pushButton_19")
-        self.pushButton_19.setGeometry(QRect(315, 700, 166, 88))
+        self.pushButton_19.setGeometry(QRect(315, 668, 166, 88))
         self.pushButton_19.setFont(font2)
         self.pushButton_19.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -313,7 +313,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_20 = QPushButton(self.centralwidget)
         self.pushButton_20.setObjectName(u"pushButton_20")
-        self.pushButton_20.setGeometry(QRect(877, 700, 166, 88))
+        self.pushButton_20.setGeometry(QRect(877, 668, 166, 88))
         self.pushButton_20.setFont(font2)
         self.pushButton_20.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -323,7 +323,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_21 = QPushButton(self.centralwidget)
         self.pushButton_21.setObjectName(u"pushButton_21")
-        self.pushButton_21.setGeometry(QRect(690, 700, 166, 88))
+        self.pushButton_21.setGeometry(QRect(690, 668, 166, 88))
         self.pushButton_21.setFont(font2)
         self.pushButton_21.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -333,7 +333,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_22 = QPushButton(self.centralwidget)
         self.pushButton_22.setObjectName(u"pushButton_22")
-        self.pushButton_22.setGeometry(QRect(1438, 700, 166, 88))
+        self.pushButton_22.setGeometry(QRect(1438, 668, 166, 88))
         self.pushButton_22.setFont(font2)
         self.pushButton_22.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -343,7 +343,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_23 = QPushButton(self.centralwidget)
         self.pushButton_23.setObjectName(u"pushButton_23")
-        self.pushButton_23.setGeometry(QRect(1068, 802, 166, 88))
+        self.pushButton_23.setGeometry(QRect(1068, 770, 166, 88))
         self.pushButton_23.setFont(font2)
         self.pushButton_23.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -353,7 +353,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_24 = QPushButton(self.centralwidget)
         self.pushButton_24.setObjectName(u"pushButton_24")
-        self.pushButton_24.setGeometry(QRect(503, 802, 166, 88))
+        self.pushButton_24.setGeometry(QRect(503, 770, 166, 88))
         self.pushButton_24.setFont(font2)
         self.pushButton_24.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -363,7 +363,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_25 = QPushButton(self.centralwidget)
         self.pushButton_25.setObjectName(u"pushButton_25")
-        self.pushButton_25.setGeometry(QRect(503, 700, 166, 88))
+        self.pushButton_25.setGeometry(QRect(503, 668, 166, 88))
         self.pushButton_25.setFont(font2)
         self.pushButton_25.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -373,7 +373,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_26 = QPushButton(self.centralwidget)
         self.pushButton_26.setObjectName(u"pushButton_26")
-        self.pushButton_26.setGeometry(QRect(1438, 802, 166, 88))
+        self.pushButton_26.setGeometry(QRect(1438, 770, 166, 88))
         self.pushButton_26.setFont(font2)
         self.pushButton_26.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -383,7 +383,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_27 = QPushButton(self.centralwidget)
         self.pushButton_27.setObjectName(u"pushButton_27")
-        self.pushButton_27.setGeometry(QRect(1251, 802, 166, 88))
+        self.pushButton_27.setGeometry(QRect(1251, 770, 166, 88))
         self.pushButton_27.setFont(font2)
         self.pushButton_27.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -393,7 +393,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_28 = QPushButton(self.centralwidget)
         self.pushButton_28.setObjectName(u"pushButton_28")
-        self.pushButton_28.setGeometry(QRect(1069, 700, 166, 88))
+        self.pushButton_28.setGeometry(QRect(1069, 668, 166, 88))
         self.pushButton_28.setFont(font2)
         self.pushButton_28.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -403,7 +403,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_29 = QPushButton(self.centralwidget)
         self.pushButton_29.setObjectName(u"pushButton_29")
-        self.pushButton_29.setGeometry(QRect(315, 904, 166, 88))
+        self.pushButton_29.setGeometry(QRect(315, 872, 166, 88))
         self.pushButton_29.setFont(font2)
         self.pushButton_29.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -413,7 +413,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_30 = QPushButton(self.centralwidget)
         self.pushButton_30.setObjectName(u"pushButton_30")
-        self.pushButton_30.setGeometry(QRect(503, 904, 166, 88))
+        self.pushButton_30.setGeometry(QRect(503, 872, 166, 88))
         self.pushButton_30.setFont(font2)
         self.pushButton_30.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -423,7 +423,7 @@ class Ui_MainWindow(object):
 "padding: 5px;")
         self.pushButton_31 = QPushButton(self.centralwidget)
         self.pushButton_31.setObjectName(u"pushButton_31")
-        self.pushButton_31.setGeometry(QRect(315, 298, 26, 56))
+        self.pushButton_31.setGeometry(QRect(315, 266, 26, 56))
         self.pushButton_31.setFont(font2)
         self.pushButton_31.setStyleSheet(u"background-color: #F2E8DB;\n"
 "\n"
@@ -435,7 +435,7 @@ class Ui_MainWindow(object):
         self.pushButton_31.setIcon(icon)
         self.pushButton_32 = QPushButton(self.centralwidget)
         self.pushButton_32.setObjectName(u"pushButton_32")
-        self.pushButton_32.setGeometry(QRect(1594, 298, 34, 56))
+        self.pushButton_32.setGeometry(QRect(1594, 266, 34, 56))
         self.pushButton_32.setFont(font2)
         self.pushButton_32.setStyleSheet(u"background-color: #F2E8DB;\n"
 "\n"
@@ -447,7 +447,7 @@ class Ui_MainWindow(object):
         self.pushButton_32.setIcon(icon1)
         self.label_13 = QLabel(self.centralwidget)
         self.label_13.setObjectName(u"label_13")
-        self.label_13.setGeometry(QRect(323, 222, 41, 44))
+        self.label_13.setGeometry(QRect(323, 190, 41, 44))
         self.label_13.setFont(font1)
         self.label_13.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_13.setStyleSheet(u"color:black;")
@@ -456,7 +456,7 @@ class Ui_MainWindow(object):
         self.label_13.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_14 = QLabel(self.centralwidget)
         self.label_14.setObjectName(u"label_14")
-        self.label_14.setGeometry(QRect(375, 230, 181, 44))
+        self.label_14.setGeometry(QRect(375, 198, 181, 44))
         self.label_14.setFont(font1)
         self.label_14.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_14.setStyleSheet(u"color:black;")
@@ -468,13 +468,6 @@ class Ui_MainWindow(object):
         self.label_15.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_15.setStyleSheet(u"background-color:black;")
         self.label_15.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.label_16 = QLabel(self.centralwidget)
-        self.label_16.setObjectName(u"label_16")
-        self.label_16.setGeometry(QRect(0, 0, 1920, 46))
-        self.label_16.setFont(font1)
-        self.label_16.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
-        self.label_16.setStyleSheet(u"background-color:black;")
-        self.label_16.setAlignment(Qt.AlignmentFlag.AlignCenter)
         MainWindow.setCentralWidget(self.centralwidget)
         self.label.raise_()
         self.label_3.raise_()
@@ -525,7 +518,6 @@ class Ui_MainWindow(object):
         self.label_13.raise_()
         self.label_14.raise_()
         self.label_15.raise_()
-        self.label_16.raise_()
 
         self.retranslateUi(MainWindow)
 
@@ -580,6 +572,5 @@ class Ui_MainWindow(object):
         self.label_13.setText("")
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"Calendario", None))
         self.label_15.setText("")
-        self.label_16.setText("")
     # retranslateUi
 
