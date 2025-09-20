@@ -275,7 +275,7 @@ class Ui_MainWindow(object):
         self.pushButton_31.setObjectName(u"pushButton_31")
         self.pushButton_31.setGeometry(QRect(315, 266, 26, 56))
         self.pushButton_31.setFont(font2)
-        self.pushButton_31.setStyleSheet(u"QPushButton#pushButton_31 {border: 2px solid #F2E8DB; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #F2E8DB; color: black;}\n" "QPushButton#pushButton_1:hover {background-color: #d0767f; color: white;}")
+        self.pushButton_31.setStyleSheet(u"QPushButton#pushButton_31 {border: 2px solid #d0767f; \n" "border-radius: 30px; \n" "padding: 5px;\n" "background-color: #fffff; color: black;}\n" "QPushButton#pushButton_31:hover {background-color: #d0767f; color: white;}")
         icon = QIcon()
         icon.addFile(u"../arrow_back.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_31.setIcon(icon)
