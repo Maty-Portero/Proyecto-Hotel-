@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
-from ui_home import Ui_MainWindow
+from ui_octubre import Ui_MainWindow
 
 class MyWidget(QMainWindow):
     def __init__(self):
@@ -9,7 +9,7 @@ class MyWidget(QMainWindow):
         self.ui.setupUi(self)
 
         # Conectar todos los botones del 1 al 30 a la misma función
-        for i in range(1, 43):
+        for i in range(1, 32):
             button = getattr(self.ui, f'pushButton_{i}', None)
             if button:
                 button.clicked.connect(self.handle_day_click)

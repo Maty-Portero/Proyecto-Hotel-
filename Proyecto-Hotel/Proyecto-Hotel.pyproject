@@ -1,6 +1,20 @@
 {
     "files": [
         "widget.py",
-        "home.ui"
+        "home.ui",
+        "enero.ui",
+        "febrero.ui",
+        "marzo.ui",
+        "abril.ui",
+        "mayo.ui",
+        "junio.ui",
+        "julio.ui",
+        "agosto.ui",
+        "septiembre.ui",
+        "octubre.ui",
+        "noviembre.ui",
+        "diciembre.ui",
+        "login.ui",
+        "eleccion_habitacion.ui"
     ]
 }
