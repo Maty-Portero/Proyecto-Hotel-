@@ -43,12 +43,8 @@ class Ui_MainWindow(object):
         font.setFamilies([u"Javanese Text"])
         font.setPointSize(19)
         self.pushButton_1.setFont(font)
-        self.pushButton_1.setStyleSheet(u"background-color: #F2E8DB;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid black; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
+        self.pushButton_1.setStyleSheet(u"QPushButton {background-color: white; color: black; border: 2px solid #d0767f; border-radius: 30px; padding: 5px;}\n"
+        "QPushButton:hover {background-color: #f0f0f0; border: 2px solid #b3666d;}")
         self.label_15 = QLabel(self.centralwidget)
         self.label_15.setObjectName(u"label_15")
         self.label_15.setGeometry(QRect(0, 1024, 1920, 56))
