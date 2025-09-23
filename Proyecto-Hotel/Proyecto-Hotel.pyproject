@@ -1,7 +1,6 @@
 {
     "files": [
         "widget.py",
-        "home.ui",
         "enero.ui",
         "febrero.ui",
         "marzo.ui",

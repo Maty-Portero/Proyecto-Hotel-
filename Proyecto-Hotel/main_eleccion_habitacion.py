@@ -8,6 +8,11 @@ class MyWidget(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        ##self.ui.pushButton_H101.clicked.connect(self.cambiar_color)
+
+    ##def cambiar_color(self):
+        ##self.ui.pushButton_H101.setStyleSheet("background-color: green; color: white;")
+    
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MyWidget()
