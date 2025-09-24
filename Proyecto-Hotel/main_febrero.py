@@ -1,4 +1,4 @@
-import sys
+import sys, subprocess
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 from ui_febrero import Ui_MainWindow
 
@@ -7,6 +7,9 @@ class MyWidget(QMainWindow):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+        self.ui.pushButton_der.clicked.connect(self.siguiente_mes)
+        self.ui.pushButton_der.clicked.connect(self.anterior_mes)
 
         # Conectar todos los botones del 1 al 30 a la misma función
         for i in range(1, 29):
@@ -19,6 +22,22 @@ class MyWidget(QMainWindow):
         if isinstance(sender, QPushButton):
             day = sender.text()
             print(f"Hiciste clic en el día: {day}")
+
+    def siguiente_mes(self):        
+        # 1. Cierra la ventana actual
+        self.close()
+        # 2. Abre la nueva ventana usando subprocess
+        # Asegúrate de que "nombre_del_script_de_la_otra_ventana.py"
+        # sea el nombre correcto del archivo de la otra ventana
+        subprocess.run(["python", "main_marzo.py"])
+
+    def anterior_mes(self):        
+        # 1. Cierra la ventana actual
+        self.close()
+        # 2. Abre la nueva ventana usando subprocess
+        # Asegúrate de que "nombre_del_script_de_la_otra_ventana.py"
+        # sea el nombre correcto del archivo de la otra ventana
+        subprocess.run(["python", "main_enero.py"])
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

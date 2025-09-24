@@ -119,11 +119,16 @@ class Ui_MainWindow(object):
         self.line_3.setFrameShape(QFrame.Shape.HLine)
         self.line_3.setFrameShadow(QFrame.Shadow.Sunken)
         self.pushButton_1 = QPushButton(self.centralwidget)
+        self.pushButton_regresar = QPushButton(self.centralwidget)
         self.pushButton_1.setObjectName(u"pushButton_1")
         self.pushButton_1.setGeometry(QRect(550, 490, 125, 70))
         font2 = QFont()
         font2.setFamilies([u"Javanese Text"])
         font2.setPointSize(19)
+        self.pushButton_regresar.setGeometry(10, 10, 100, 30) # Coordenadas de ejemplo
+        self.pushButton_regresar.setStyleSheet(u"pushButton_regresar {background-color: white; color: black; border: 2px solid #d0767f; border-radius: 15px; padding: 5px;}\n")
+
+
         self.pushButton_1.setFont(font2)
         self.pushButton_1.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
@@ -805,6 +810,7 @@ class Ui_MainWindow(object):
         self.pushButton_29.raise_()
         self.pushButton_26.raise_()
         self.pushButton_30.raise_()
+        self.pushButton_regresar.raise_()
         self.label_2.raise_()
         self.label_16.raise_()
         self.label_17.raise_()

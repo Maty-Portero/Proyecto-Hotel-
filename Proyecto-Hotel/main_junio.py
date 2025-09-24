@@ -1,4 +1,4 @@
-import sys
+import sys, subprocess
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 from ui_junio import Ui_MainWindow
 
@@ -7,6 +7,9 @@ class MyWidget(QMainWindow):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+        self.ui.pushButton_der.clicked.connect(self.siguiente_mes)
+        self.ui.pushButton_izq.clicked.connect(self.anterior_mes)
 
         # Conectar todos los botones del 1 al 30 a la misma función
         for i in range(1, 31):
@@ -19,6 +22,14 @@ class MyWidget(QMainWindow):
         if isinstance(sender, QPushButton):
             day = sender.text()
             print(f"Hiciste clic en el día: {day}")
+
+    def siguiente_mes(self):
+        self.close()
+        subprocess.run(["python", "main_julio.py"])
+
+    def anterior_mes(self):
+        self.close()
+        subprocess.run(["python", "main_mayo.py"])
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
