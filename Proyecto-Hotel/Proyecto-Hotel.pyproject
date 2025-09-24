@@ -14,6 +14,18 @@
         "noviembre.ui",
         "diciembre.ui",
         "login.ui",
-        "eleccion_habitacion.ui"
+        "eleccion_habitacion.ui",
+        "enero_habitacion.ui",
+        "febrero_habitacion.ui",
+        "marzo_habitacion.ui",
+        "abril_habitacion.ui",
+        "mayo_habitacion.ui",
+        "junio_habitacion.ui",
+        "julio_habitacion.ui",
+        "agosto_habitacion.ui",
+        "septiembre_habitacion.ui",
+        "octubre_habitacion.ui",
+        "noviembre_habitacion.ui",
+        "diciembre_habitacion.ui"
     ]
 }

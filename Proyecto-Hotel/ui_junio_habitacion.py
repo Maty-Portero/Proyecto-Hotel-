@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'eleccion_habitacion.ui'
+## Form generated from reading UI file 'junio_habitacion.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.9.2
 ##
@@ -448,16 +448,6 @@ class Ui_MainWindow(object):
         self.label_15.setLayoutDirection(Qt.LayoutDirection.LeftToRight)
         self.label_15.setStyleSheet(u"background-color:black;")
         self.label_15.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.pushButton_34 = QPushButton(self.centralwidget)
-        self.pushButton_34.setObjectName(u"pushButton_34")
-        self.pushButton_34.setGeometry(QRect(860, 810, 125, 70))
-        self.pushButton_34.setFont(font2)
-        self.pushButton_34.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
         self.pushButton_30 = QPushButton(self.centralwidget)
         self.pushButton_30.setObjectName(u"pushButton_30")
         self.pushButton_30.setGeometry(QRect(240, 810, 125, 70))
@@ -468,121 +458,11 @@ class Ui_MainWindow(object):
 "border: 2px solid #d0767f; \n"
 "border-radius: 30px; \n"
 "padding: 5px;")
-        self.pushButton_31 = QPushButton(self.centralwidget)
-        self.pushButton_31.setObjectName(u"pushButton_31")
-        self.pushButton_31.setGeometry(QRect(390, 810, 125, 70))
-        self.pushButton_31.setFont(font2)
-        self.pushButton_31.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_35 = QPushButton(self.centralwidget)
-        self.pushButton_35.setObjectName(u"pushButton_35")
-        self.pushButton_35.setGeometry(QRect(1020, 810, 125, 70))
-        self.pushButton_35.setFont(font2)
-        self.pushButton_35.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_32 = QPushButton(self.centralwidget)
-        self.pushButton_32.setObjectName(u"pushButton_32")
-        self.pushButton_32.setGeometry(QRect(553, 810, 125, 70))
-        self.pushButton_32.setFont(font2)
-        self.pushButton_32.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
         self.pushButton_29 = QPushButton(self.centralwidget)
         self.pushButton_29.setObjectName(u"pushButton_29")
         self.pushButton_29.setGeometry(QRect(80, 810, 125, 70))
         self.pushButton_29.setFont(font2)
         self.pushButton_29.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_33 = QPushButton(self.centralwidget)
-        self.pushButton_33.setObjectName(u"pushButton_33")
-        self.pushButton_33.setGeometry(QRect(709, 810, 125, 70))
-        self.pushButton_33.setFont(font2)
-        self.pushButton_33.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_40 = QPushButton(self.centralwidget)
-        self.pushButton_40.setObjectName(u"pushButton_40")
-        self.pushButton_40.setGeometry(QRect(709, 890, 125, 70))
-        self.pushButton_40.setFont(font2)
-        self.pushButton_40.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_41 = QPushButton(self.centralwidget)
-        self.pushButton_41.setObjectName(u"pushButton_41")
-        self.pushButton_41.setGeometry(QRect(860, 890, 125, 70))
-        self.pushButton_41.setFont(font2)
-        self.pushButton_41.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_39 = QPushButton(self.centralwidget)
-        self.pushButton_39.setObjectName(u"pushButton_39")
-        self.pushButton_39.setGeometry(QRect(553, 890, 125, 70))
-        self.pushButton_39.setFont(font2)
-        self.pushButton_39.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_42 = QPushButton(self.centralwidget)
-        self.pushButton_42.setObjectName(u"pushButton_42")
-        self.pushButton_42.setGeometry(QRect(1020, 890, 125, 70))
-        self.pushButton_42.setFont(font2)
-        self.pushButton_42.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_38 = QPushButton(self.centralwidget)
-        self.pushButton_38.setObjectName(u"pushButton_38")
-        self.pushButton_38.setGeometry(QRect(390, 890, 125, 70))
-        self.pushButton_38.setFont(font2)
-        self.pushButton_38.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_37 = QPushButton(self.centralwidget)
-        self.pushButton_37.setObjectName(u"pushButton_37")
-        self.pushButton_37.setGeometry(QRect(240, 890, 125, 70))
-        self.pushButton_37.setFont(font2)
-        self.pushButton_37.setStyleSheet(u"background-color: WHITE;\n"
-"color: black;\n"
-"\n"
-"border: 2px solid #d0767f; \n"
-"border-radius: 30px; \n"
-"padding: 5px;")
-        self.pushButton_36 = QPushButton(self.centralwidget)
-        self.pushButton_36.setObjectName(u"pushButton_36")
-        self.pushButton_36.setGeometry(QRect(80, 890, 125, 70))
-        self.pushButton_36.setFont(font2)
-        self.pushButton_36.setStyleSheet(u"background-color: WHITE;\n"
 "color: black;\n"
 "\n"
 "border: 2px solid #d0767f; \n"
@@ -912,20 +792,8 @@ class Ui_MainWindow(object):
         self.label_13.raise_()
         self.label_14.raise_()
         self.label_15.raise_()
-        self.pushButton_34.raise_()
         self.pushButton_30.raise_()
-        self.pushButton_31.raise_()
-        self.pushButton_35.raise_()
-        self.pushButton_32.raise_()
         self.pushButton_29.raise_()
-        self.pushButton_33.raise_()
-        self.pushButton_40.raise_()
-        self.pushButton_41.raise_()
-        self.pushButton_39.raise_()
-        self.pushButton_42.raise_()
-        self.pushButton_38.raise_()
-        self.pushButton_37.raise_()
-        self.pushButton_36.raise_()
         self.label_2.raise_()
         self.label_16.raise_()
         self.label_17.raise_()
@@ -968,7 +836,7 @@ class Ui_MainWindow(object):
         self.label.setText("")
         self.label_5.setText("")
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Fecha: 12/09/2025", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"x 2026", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Junio 2026", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"L", None))
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"M", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"X", None))
@@ -1009,20 +877,8 @@ class Ui_MainWindow(object):
         self.label_13.setText("")
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"Calendario", None))
         self.label_15.setText("")
-        self.pushButton_34.setText(QCoreApplication.translate("MainWindow", u"x", None))
         self.pushButton_30.setText(QCoreApplication.translate("MainWindow", u"30", None))
-        self.pushButton_31.setText(QCoreApplication.translate("MainWindow", u"31", None))
-        self.pushButton_35.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_32.setText(QCoreApplication.translate("MainWindow", u"x", None))
         self.pushButton_29.setText(QCoreApplication.translate("MainWindow", u"29", None))
-        self.pushButton_33.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_40.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_41.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_39.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_42.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_38.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_37.setText(QCoreApplication.translate("MainWindow", u"x", None))
-        self.pushButton_36.setText(QCoreApplication.translate("MainWindow", u"x", None))
         self.label_2.setText("")
         self.label_16.setText(QCoreApplication.translate("MainWindow", u"Martes", None))
         self.label_17.setText(QCoreApplication.translate("MainWindow", u"16/01/2026", None))

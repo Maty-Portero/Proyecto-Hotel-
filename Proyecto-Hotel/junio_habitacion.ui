@@ -99,7 +99,7 @@
      <string notr="true">color:black;</string>
     </property>
     <property name="text">
-     <string>x 2026</string>
+     <string>Junio 2026</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -1246,33 +1246,6 @@ padding: 5px;</string>
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_34">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>810</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_30">
     <property name="geometry">
      <rect>
@@ -1300,87 +1273,6 @@ padding: 5px;</string>
      <string>30</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_31">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>810</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>31</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_35">
-    <property name="geometry">
-     <rect>
-      <x>1020</x>
-      <y>810</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_32">
-    <property name="geometry">
-     <rect>
-      <x>553</x>
-      <y>810</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_29">
     <property name="geometry">
      <rect>
@@ -1406,222 +1298,6 @@ padding: 5px;</string>
     </property>
     <property name="text">
      <string>29</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_33">
-    <property name="geometry">
-     <rect>
-      <x>709</x>
-      <y>810</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_40">
-    <property name="geometry">
-     <rect>
-      <x>709</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_41">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_39">
-    <property name="geometry">
-     <rect>
-      <x>553</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_42">
-    <property name="geometry">
-     <rect>
-      <x>1020</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_38">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_37">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_36">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>890</y>
-      <width>125</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Javanese Text</family>
-      <pointsize>19</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: WHITE;
-color: black;
-
-border: 2px solid #d0767f; 
-border-radius: 30px; 
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string>x</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -2469,20 +2145,8 @@ padding: 5px;</string>
    <zorder>label_13</zorder>
    <zorder>label_14</zorder>
    <zorder>label_15</zorder>
-   <zorder>pushButton_34</zorder>
    <zorder>pushButton_30</zorder>
-   <zorder>pushButton_31</zorder>
-   <zorder>pushButton_35</zorder>
-   <zorder>pushButton_32</zorder>
    <zorder>pushButton_29</zorder>
-   <zorder>pushButton_33</zorder>
-   <zorder>pushButton_40</zorder>
-   <zorder>pushButton_41</zorder>
-   <zorder>pushButton_39</zorder>
-   <zorder>pushButton_42</zorder>
-   <zorder>pushButton_38</zorder>
-   <zorder>pushButton_37</zorder>
-   <zorder>pushButton_36</zorder>
    <zorder>label_2</zorder>
    <zorder>label_16</zorder>
    <zorder>label_17</zorder>
