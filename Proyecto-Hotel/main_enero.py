@@ -7,11 +7,9 @@ class MyWidget(QMainWindow):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.month_name = "enero"
-        
+
         self.ui.pushButton_der.clicked.connect(self.siguiente_mes)
-        self.ui.pushButton_izq.clicked.connect(self.anterior_mes)
-        
+        self.ui.pushButton_der.clicked.connect(self.anterior_mes)
 
         # Conectar todos los botones del 1 al 30 a la misma función
         for i in range(1, 32):
@@ -20,18 +18,12 @@ class MyWidget(QMainWindow):
                 button.clicked.connect(self.handle_day_click)
 
     def handle_day_click(self):
-        sender = self.sender()
+        sender = self.sender() # Obtiene el objeto que emitió la señal
         if isinstance(sender, QPushButton):
             day = sender.text()
-            print(f"Has clickeado el día: {day}")
+            print(f"Hiciste clic en el día: {day}")
 
-            self.close()
-            # **MODIFICACIÓN AQUÍ**: Pasa el día y el mes como argumentos
-            subprocess.run(["python", "main_enero_habitacion.py", day, self.month_name])
-            
-    #def 
-
-    def siguiente_mes(self):        
+    def siguiente_mes(self):
         self.close()
         subprocess.run(["python", "main_febrero.py"])
 
